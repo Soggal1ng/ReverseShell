@@ -7,6 +7,7 @@ Disclaimer this is for educational purposes only, use this in controlled environ
 - Copies the file to a legit looking location
 - Auto firewall shit
 - optional webhook messaging every time the client connects to the server
+- added windows defender exclusion to allow the file to be undetected. Warning: it may increase detection due to the fact its requesting to be put in windows exclusions
 
 # PIP #
 `pip install requests`
